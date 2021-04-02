@@ -1,0 +1,45 @@
+.tittleResume{
+    color: $white;
+    background-color: $orange-opacity;
+    border-radius: 200px;
+    height: 50px;
+    width: 950px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+
+    img{
+        margin-left: 5px;
+    }
+
+    
+}
+
+.img-ingredient{
+    vertical-align: middle;
+    border-style: none;
+    width: 5%;
+    height: 84%;
+    border-radius: 50%;
+}
+
+.img-box{
+    vertical-align: middle;
+    border-style: none;
+    width: 5%;
+    height: 84%;
+    border-radius: 50%;
+    background-color: $yellow;
+}
+
+.deletebutton{
+    background-color: $dark-green;
+    border-radius: 50%;
+    color: $white;
+    border: none;
+    height: 25px;
+    width: 25px;  
+    margin-right: 10px;
+}
+
+

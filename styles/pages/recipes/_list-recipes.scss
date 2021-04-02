@@ -1,0 +1,54 @@
+
+.container-carrusel-categories{
+  background-color: grey;
+  width: 100%;
+  height: 90px;
+  border-radius: 45px;
+  border-color: orange;
+  border-style: solid;
+  padding: -40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  .container-cards-recipes{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 88vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .slick-slider{
+    width: 91%;
+    left: 5%;
+  }
+
+  .button-carrusel-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    @include tablet { width: 95%;}
+
+    &.red {
+      background-color: $red;
+    }
+    &.orange {
+      background-color: $orange;
+    }
+    &.yellow {
+      background-color: $yellow;
+    }
+    &.green {
+      background-color: $light-green;
+    }
+   
+  }
+}

@@ -1,0 +1,100 @@
+.side-container{
+  width: 100%;
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: $dark-green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card-body {
+    min-height: 1px;
+    padding: 0.25rem;
+    background-color: $dark-opacity;
+    backdrop-filter: blur(1rem);
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  
+  .aside-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    .greeting-aside{
+      font-size: $size-sideslider-mobile;
+      font-weight: $bold;
+      margin: 10px 0 20px;
+    }
+    img{
+      width: 120px;
+      margin: 15px 0;
+      border: 8px solid rgba(255, 255, 255, 0.1);
+      border-radius: 70px;
+      position: relative;
+      z-index: 5;
+    }
+    .color-divider-aside{
+      background-color: #F58634;
+      width: 100%;
+      height: 10px;
+      border-bottom: 105px solid #F58634;
+      top: -70px;
+      position: relative;
+    }
+    .orange-card-footer-aside{
+      background-color: #F58634;
+      width: 100%;
+      border-radius: 0 0 20px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: -70px;
+      p{
+        margin: 0;
+      }
+      .user-name-aside{
+        font-size: $size-sideslideruser-mobile;
+        font-weight: $medium;
+        margin: 5px 0;
+      }
+      .account-footer-aside{
+        font-size: $size-sideslider-mobile;
+        font-weight: $bold;
+        margin: 10px 0 20px;
+      }
+    }
+  }
+  
+  .nav-link-aside{
+    color: $white!important;
+    text-align: center;
+    font-size: $size-sideslider-mobile;
+    font-weight: $medium;
+    border-bottom: 2px solid $orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+      color: $orange!important;
+      font-weight: $bold;
+      transition: 0.5s ease;
+      text-decoration: none;
+    }
+    @include desktop{
+      border-bottom: 2px solid $orange;
+      margin: 10px 0;
+      padding: 6px 0;
+    }
+    img{
+      width: 24px;
+      margin-left: 10px;
+      fill: $orange;
+    }
+  }
+}

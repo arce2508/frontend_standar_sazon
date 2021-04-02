@@ -1,0 +1,88 @@
+.section-howto{
+  background-color: $orange;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  @include tablet{
+    background-color: $dark-mode;
+  }
+  .flag-orange{
+    background-color: $orange;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    display: none;
+    @include tablet {
+      height: 100%;
+      width: 70%;
+      transform: rotate(0deg);
+      margin-left: 30%;
+      display: block;
+    }
+    @include desktop{
+      height: 100vh;
+      display: block;
+    }
+  }
+  
+  .how-to-title{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @include tablet{
+      align-items: flex-end;
+    }
+    .how-title-conatiner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0 15px;
+      @include tablet{
+        margin-right: 100px;
+        height: 20vh;
+        margin: 0;
+      }
+      @include desktop{
+        margin-right: 130px;
+      }
+      h2{
+        margin-top: 1rem;
+        color: $white;
+        font-size: $size-title-mobile;
+        font-weight: $medium;
+        text-align: center;
+        margin-bottom: 15px;
+        @include tablet {
+          margin-top: 2rem;
+          font-size: 1.5rem;
+        }
+        @include desktop {
+          margin-top: 3rem;
+          font-size: $size-title-desktop;
+        }
+      }
+    }
+  }
+  
+  .how-to-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    @include tablet {
+      height: 60vh;
+      flex-direction: row;
+      justify-content: space-around;
+      img{
+        width: 50%;
+      }
+    }
+  }
+}

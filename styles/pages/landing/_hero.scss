@@ -1,0 +1,74 @@
+
+.hero{
+  background-image:url("../../../public/img/hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  background-attachment: fixed;
+  @include tablet{
+    height: 80vh;
+  }
+  @include desktop{
+    height: 100vh;
+  }
+  .opacity-hero{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.3);
+    @include tablet{
+      height: 80vh;
+    }
+    @include desktop{
+      height: 100vh;
+    }
+  }
+  
+  .logo-mobile{
+    position: absolute;
+    top:20vh;
+    left:25%;
+  }
+
+  .logo-desktop{
+    position: absolute;
+    top:30vh;
+    left:0;
+
+    @include desktop{
+    left:0;
+    width:100%;
+    top:35vh;
+    }
+  }
+  
+  .wrapper-btn{
+    position:fixed;
+    top:93vh;
+    right:0;
+    z-index: 5;
+
+
+
+    .btn_hero{
+      font-size: $size-subtitle-mobile;
+      background-color: $orange;
+      color:$white;
+      border-radius: 40px 10px 10px 40px;
+      width:200px;
+      height: 40px;
+      text-align: right;
+      border: 2px solid $dark-mode;
+    }
+
+    .arrow_button{
+      position:absolute;
+      top:8px;
+      left:4px;
+
+
+    }
+  }
+     
+}

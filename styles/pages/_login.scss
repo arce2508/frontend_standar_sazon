@@ -1,0 +1,36 @@
+.section-login {
+  background-image: url('../../public/bgloginmovil.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  @include desktop  {
+    background-image: url('../../public/bglogindesktop.png');
+  }
+  @include tablet  {
+    background-image: url('../../public/bglogindesktop.png');
+  }
+}
+
+.single-divider{
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include tablet{
+    width: 100%;
+    height: 80%;
+    padding: 0 0 0 20px;
+  }
+  @include desktop{
+    width: 80%;
+  }
+  .pacman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 90px 0;
+    
+  }
+}

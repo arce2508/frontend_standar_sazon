@@ -1,0 +1,57 @@
+.create-form-init{
+    background-color: $dark-green;
+    color: $white;
+    height: 620px;
+    border-radius: 40px 10px 10px 40px;
+    margin-top: 3rem;
+    font-weight: $medium;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    .classific-text{
+        height: 40px;
+        width: 50%;
+        font-size: $size-inputstitle-mobile;
+    }
+}
+
+.newDataRecipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    @include tablet{
+        flex-direction: column;
+    }
+
+    @include desktop{
+        flex-direction: row;
+    }
+
+    .derecha{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        p{
+            margin: auto 15px;
+            width: 90%;
+            font-size: $size-inputstitle-mobile;
+            text-align: center;
+
+        }
+
+
+    }
+
+    .izquierda{
+        width: 100%;
+        height: 100%;
+    }
+}

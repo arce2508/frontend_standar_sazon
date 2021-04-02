@@ -1,0 +1,174 @@
+ 
+ .resume-data{
+     background-color: $light-green;
+     border-radius: 8px;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     padding: 1rem;
+
+     .kgs-number{
+         margin-bottom: 1.5rem;
+         margin-left: 1rem;
+         margin-top: 1rem;
+     }
+
+     .data-time{
+        margin-bottom: 1.5rem;
+         margin-left: 2rem;
+         margin-top: 1rem;
+    }
+
+    .data-temperature{
+        margin-bottom: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+     }
+
+     
+     .inp-letters{
+         font-size: $size-inputstitle-desktop;
+         font-weight: $bold;
+         color: $white;
+     }
+
+     .letters{
+         margin-top: 1rem;
+         margin-bottom: none;
+     }
+     .letters2{
+         margin-top:0;
+     }
+     
+     .inp-summary{
+         border-radius: 5px;
+         border:0px;
+         font-size: $size-inputsplaceholder-desktop;
+     }
+     .time{
+         margin-left: 2rem;
+         margin-left: 2rem;
+     }
+     
+ }
+ .summary{
+     margin-left: 2rem;
+ }
+
+ .technical-section{
+     margin-top: 1rem;
+     width: 298px;
+     height: 365px;
+     background-color: $medium-grey;
+     border-radius: 8px;
+     padding-left: 1rem;
+     padding-top: 1rem;
+     padding-right: 1rem;
+
+     .logo{
+        margin-bottom: 2rem;
+    }
+
+     .title-resume{
+         font-size: $size-subtitle-desktop;
+         color:$white;
+         font-weight: $bold;   
+     }
+     .technical{
+        justify-content: space-between;
+        
+    }
+     .main-title-resume{
+        font-size: $size-subtitle-desktop;
+        font-weight: $extra-bold;
+        color: white;
+    }
+    .technical-concepts{
+        font-size: $size-recipedetailsubtitle-desktop;
+        font-weight: $bold;
+        color: $white;
+    }
+    .unit-measurement{
+        font-size: $size-inputsplaceholder-desktop;
+        font-weight: $extra-bold;
+        color: $white;
+    }
+    .green{
+        color: $light-green;
+    }
+    .orange{
+        color:$orange;
+    }
+ }
+ .admin-section{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 298px;
+        background-color: $medium-grey;
+        border-radius: 8px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        justify-content:center ;
+
+        .technical{
+            justify-content: space-between;   
+        }
+        .title-resume{
+            font-size: $size-subtitle-desktop;
+            color:$white;
+            font-weight: $bold;   
+        }
+        .main-title-resume{
+           font-size: $size-subtitle-desktop;
+           font-weight: $extra-bold;
+           color:$white
+        }
+        .technical-concepts{
+            font-size: $size-recipedetailsubtitle-desktop;
+            font-weight: $bold;
+            color: $white;
+        }
+        .unit-measurement{
+            font-size: $size-inputsplaceholder-desktop;
+            font-weight: $extra-bold;
+        }
+        .technical-concepts{
+            
+            font-weight: $bold;
+        }
+        .unit-measurement{
+            font-size: $size-inputsplaceholder-desktop;
+            font-weight: $extra-bold;
+        }
+        .green{
+            color: $light-green;
+            font-size: 1.5rem;
+        }
+        .unit{
+            color: $orange;
+            font-size:1.5rem;
+        }
+        .orange{
+            color:$orange;
+        }
+        
+        .totals-resume{
+            font-size: $size-inputsplaceholder-desktop;
+            font-weight: $extra-bold;
+        }
+        .iva{
+            margin-bottom: 1rem;
+        }
+        .totals{
+            margin-top: .90rem;
+            margin-bottom: .90rem;
+        }
+        .logo{
+            margin-bottom: 3rem;
+        }
+        
+
+ }
+ 
+
+ 

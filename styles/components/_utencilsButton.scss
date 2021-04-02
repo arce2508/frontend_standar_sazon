@@ -1,0 +1,36 @@
+.button-utencils{
+    border-radius: 25px;
+    border: none;
+    color: $white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 5px;
+
+    &.orange{
+        background-color: $orange;
+    }
+    &.green{
+        background-color: $dark-green;
+    }
+
+    label{
+        margin: 0;
+        padding-left: 7px;
+    }
+
+}
+
+.checkmark {
+    width: 1em;
+    height: 1rem;
+    background-color:$white;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    
+  }
+  .checkmark:checked {
+    background-color: $dark-mode;
+}

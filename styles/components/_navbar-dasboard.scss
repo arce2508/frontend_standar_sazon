@@ -1,0 +1,77 @@
+.navbar-style{
+  background-color: $dark-green;
+}
+
+.btn-outline-dark{
+  font-size: $size-footerlinks-mobile;
+  font-weight: $bold;
+  color: $orange;
+  background-color: none;
+  border-color:$orange;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 20px 0px 20px 0px;
+}
+
+.profile-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  @include desktop{
+    display: none;
+  }
+  .greeting{
+    font-size: $size-sideslider-mobile;
+    font-weight: $bold;
+    margin: 10px 0 20px;
+  }
+  img{
+    width: 120px;
+    margin: 15px 0;
+    border: 8px solid rgba(255, 255, 255, 0.1);
+    border-radius: 70px;
+    position: relative;
+    z-index: 5;
+  }
+  .color-divider{
+    background-color: #F58634;
+    width: 100%;
+    height: 10px;
+    border-bottom: 105px solid #F58634;
+    top: -70px;
+    position: relative;
+    @include tablet{
+      width: 40%;
+    }
+  }
+  .orange-card-footer{
+    background-color: #F58634;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    @include tablet{
+      width: 40%;
+      top: -72px;
+    }
+    p{
+      margin: 0;
+    }
+    .user-name{
+      font-size: $size-sideslideruser-mobile;
+      font-weight: $medium;
+      margin: 5px 0;
+    }
+    .account-footer{
+      font-size: $size-sideslider-mobile;
+      font-weight: $bold;
+      margin: 10px 0 20px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.section-benefits{
+  background-color: $dark-mode;
+  width: 100vw;
+  .green-advisor{
+    position: absolute;
+    align-self: center;
+    width: 100vw;
+    height: 8.75rem;
+  }
+  .benefits-image-wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4.375rem;
+    padding-left: 26px;
+    @include tablet {
+      flex-direction: column;
+      vertical-align: middle;
+      height: 100vh;
+      margin-top: 0;
+      padding-left: 26px;
+    }
+  }
+ .benefit-wrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  @include tablet{
+    height: 100vh;
+  }
+  .benefit-title{
+    h2{
+      margin-top: 1rem;
+      color: $white;
+      font-size: $size-title-mobile;
+      font-weight: $medium;
+      text-align: center;
+      @include tablet {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+      }
+      @include desktop {
+        margin-top: 3rem;
+        font-size: $size-title-desktop;
+      }
+    }
+  }
+  .benefit-card-wrapper{
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem 0;
+    img{
+      margin: .5rem;
+      width: 1.5rem;
+      @include tablet {
+        width: 2.25rem;
+      }
+      @include desktop {
+        width: 2.625rem;
+      }
+    }
+    h3{
+      font-size: $size-cardbenefits-mobile;
+      font-weight: $bold;
+      margin: 1rem 0;
+      @include tablet {
+        font-size: 0.875rem;
+      }
+      @include desktop {
+        font-size: $size-cardbenefits-desktop;
+      }
+    }
+    p{
+      margin: 0;
+      padding: 0 1.5rem;
+      font-size: $size-plainsbody-mobile;
+      font-weight: $regular;
+      @include tablet {
+        font-size: 0.75rem;
+        padding: 0%;
+      }
+      @include desktop {
+        font-size: $size-plainsbody-desktop;
+        padding: 0%;
+      }
+    }
+    caption{
+      display: flex;
+      justify-content: center;
+      color: $white;
+      text-align: center; 
+      font-size: $size-caption-mobile;
+      @include tablet {
+        font-size: $size-caption-desktop;
+      }
+    }
+  }
+ }
+}
+
+.flag{
+  background-color: $light-green;
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+  @include tablet {
+    height: 100vh;
+    width: 30%;
+    transform: rotate(0deg);
+  }
+}

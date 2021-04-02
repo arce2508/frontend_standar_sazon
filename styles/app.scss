@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'utils';
+
+@import './pages/landing/benefits';
+@import './pages/landing/hero';
+@import './pages/landing/howFuctions';
+@import './pages/landing/planes';
+
+@import './pages/create';
+@import './pages/login';
+@import './pages/recipes/list-recipes';
+@import './pages/recipes/create/form-init';
+@import './pages/recipes/create/ingredients';
+@import './pages/recipes/create/resume';
+@import './pages/recipes/create/utencils';
+@import './pages/recipes/detail/recipes-detail';
+@import './pages/recipes/detail/ingredients-carousel';
+@import './pages/recipes/detail/subrecipes-carousel';
+
+
+@import './components/navbar'; 
+@import './components/footer';
+@import './components/navbar-dasboard';
+@import './components/cardHow';
+@import './components/ctaButton';
+@import './components/dashboard';
+@import './components/sidebar-dashboard';
+@import './components/nextButton';
+@import './components/utencilsButton';
+@import './components/tablestps';
+@import './components/addUtencil';
+@import './components/showIngredients';
+@import './components/cardRecipeView';
+@import './components/nextButton';
+@import './components/recipe-views';
+@import './components/firstUserView'

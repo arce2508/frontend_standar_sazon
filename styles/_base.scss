@@ -1,0 +1,125 @@
+// <h1> - titulo
+
+// <h2> - titulo
+
+// <h3> - subtitulo
+
+// <p> body
+
+// <small>  caption
+
+body {
+  font-family: $font-family;
+  font-size: $size-cardbenefits-mobile;
+  @include tablet {
+      font-size: $size-cardbenefits-desktop;
+  }
+}
+
+h1, h2 {
+  font-size: $size-title-mobile;
+  @include tablet {
+      font-size: $size-title-desktop;
+  }
+}
+
+h3 {
+  font-size: $size-subtitle-mobile;
+  @include tablet {
+      font-size: $size-subtitle-desktop;
+  }
+}
+
+small {
+  font-size: $size-caption-mobile;
+  @include tablet {
+      font-size: $size-caption-desktop;
+  }
+}
+
+button {
+  font-size: $size-button-mobile;
+  @include tablet {
+      font-size: $size-button-desktop;
+  }
+}
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0.75rem 0;
+  @include tablet{
+    width: 90%;
+    select{
+      width: 100%;
+    }
+  }  
+  @include desktop{
+    width: 90%;
+  }  
+  label{
+    color: $white;
+    font-size: $size-inputstitle-mobile;
+    font-weight: $medium;
+    @include tablet{
+      font-size: $size-inputstitle-desktop; 
+    }
+  }
+  input, select{
+    height: 2.75rem;
+    padding: 0 .75rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: $size-inputsplaceholder-mobile;
+    margin-left: 0!important;
+    @include tablet{
+      font-size: $size-inputsplaceholder-desktop;
+    }
+    &:focus {
+      outline: none;
+    }
+    &.error {
+      border: 1px red solid;
+      &::placeholder {
+        color: red;
+      }
+    }
+  }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  input[type="number"] {
+      -moz-appearance: textfield;
+  }
+
+.create-button{
+  color: $white;
+  background-color: $dark-mode;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: $size-footerlinks-mobile;
+  font-weight: $bold;
+  margin: 30px 0px 20px 0px;
+  &:hover{
+    color: $dark-mode;
+    background-color: $light-green;
+    transition: 0.5s ease;
+    font-weight: $bold;
+  }
+}  
+
+.container{
+  width: 100%;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+ 
+

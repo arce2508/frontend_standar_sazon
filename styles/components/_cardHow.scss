@@ -1,0 +1,89 @@
+
+.cardHow {
+  background-color: $dark-green;
+  color: $white;
+  width: 285px;
+  height: 520px;
+  border: 0px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin: 0 auto;
+
+  .description{
+    border: 2px solid $light-green;
+    padding: 5px;
+    border-radius: 30px 0 30px 30px;
+    background-color: $light-green;
+    height: 290px;
+    width: 277px;
+    margin: 2px;
+    margin-right: 16px;
+    margin-block-end: -9px;
+    margin-left: 2px;
+    position: relative;
+    top: -20px;
+  }
+  
+  .step {
+    background-color: $dark-green;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-decoration-color: white;
+    font-weight: 700;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardText{
+    font-style: $font-family;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .font-sizes{
+    $font-family: 'Montserrat', sans-serif;
+    $size-subtitle-desktop: 1rem;
+  }
+  
+   .ingredient1Opacity{
+     opacity: 0.8;
+     font-size: 14;
+   }
+   .ingredient2Opacity{
+    opacity: 0.7;
+    font-size: 20px;
+  }
+  .ingredient3Opacity{
+    opacity: 1;
+    font-size: 20px;
+  }
+  .ingredient4Opacity{
+    opacity: 0.7;
+    font-size: 14;
+  }
+  .ingredient5Opacity{
+    opacity: 1;
+    font-size: 14;
+  }
+  
+  .card-content-how{
+    position: relative;
+    z-index: 10;
+  }
+  .opacity-card-how {
+    &:after {
+      content:'';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 55%;
+      background-color:rgba(0,0,0, 0.5);
+    }
+  }
+}
+

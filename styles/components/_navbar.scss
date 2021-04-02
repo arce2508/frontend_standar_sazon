@@ -1,0 +1,71 @@
+.nav-style{
+  background-color: $dark-green;
+  img{
+    width: 35px;
+    @include desktop{
+      width: 50px;
+      margin: 0 20px;
+    }
+  }
+}
+
+.nav-link{
+  color: $white!important;
+  text-align: center;
+  font-size: $size-sideslider-mobile;
+  font-weight: $medium;
+  border-bottom: 2px solid $orange;
+  &:hover{
+    color: $orange!important;
+    font-weight: $bold;
+    transition: 0.5s ease;
+  }
+  @include tablet{
+    border-bottom: none;
+  }
+  @include desktop{
+    border-bottom: none;
+    margin: 10px 0;
+  }
+  img{
+    width: 24px;
+  }
+}
+.link-account{
+  font-size: $size-sideslider-mobile;
+  font-weight: $medium;
+  color: $orange!important;
+  &:hover{
+    color: $light-green!important;
+    font-weight: $bold;
+    transition: 0.5s ease;
+  }
+}
+
+.form-nav{
+  display: flex;
+  justify-content: center;
+  .btn-primary{
+    background-color: $orange;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: $size-sideslider-mobile;
+    font-weight: $bold;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.45);
+    &:hover{
+      background-color: $light-green;
+      color: $dark-mode;
+      transition: 0.3s ease;
+    }
+    @include desktop{
+      margin: 10px 20px;
+    }
+  }
+}
+
+.navbar-toggler{
+  border: none;
+  filter: invert(100%);
+}

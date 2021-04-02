@@ -1,0 +1,117 @@
+.create-background {
+  background-image: url('../../public/backgrouncreate.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  @include desktop  {
+    background-image: url('../../public/backgrouncreate.png');
+  }
+    @include tablet  {
+    background-image: url('../../public/backgrouncreate.png');
+  }    
+}
+
+.create-card-wrapper{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  @include tablet{
+    height: 120vh;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .card-group{
+    width: 90%;
+    height: 90%;
+    background-color: $orange-opacity;
+    border-radius: .5rem .5rem 0rem 0rem;
+    backdrop-filter: blur(1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet{
+      border-radius: 1.5rem 0rem 0rem 1.5rem;
+      background-color: $green-opacity;
+      height: 37.5rem;
+    }
+    h1{
+      color: $white;
+      font-size: 36px;
+      font-weight: $medium;
+      width: 70%;
+      @include tablet{
+        font-size: 42px;
+        width: 90%;
+        padding: 0 40px;
+      }
+      @include desktop{
+        font-size: 48px;
+      }
+    }
+    h2{
+      color: $white;
+      font-size: 30px;
+      font-weight: $regular;
+      width: 70%;
+      @include tablet{
+        width: 80%;
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+.create-form-wrapper{
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  @include tablet{
+    height: 120vh;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .form-group {
+    width: 90%;
+    height: 90%;
+    background-color: $orange-opacity;
+    border-radius: 0rem 0rem .5rem .5rem;
+    backdrop-filter: blur(1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet{
+      border-radius: 0rem 1.5rem 1.5rem .0rem;
+      flex-direction: row;
+      height: 37.5rem;
+      align-items: center;
+      flex-flow: wrap;
+      justify-content: center;
+      padding: 90px 30px;
+    }
+    p{
+      margin: 0;
+    }
+    .divider-left, .divider-right{
+      width: 80%;
+      @include tablet{
+        width: 50%;
+      }
+    }
+    @include tablet{
+      margin: 0;
+    }
+  }
+  .pacman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+    width: 100%;
+    right: -10px;
+  }
+}

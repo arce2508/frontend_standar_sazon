@@ -1,0 +1,60 @@
+//General color variables
+$orange: #F58634;
+$dark-green: #007965;
+$light-green: #00AF91;
+$yellow: #FFCC29;
+$dark-mode: #333333;
+$dark-opacity: rgba(51, 51, 51, 0.8);; 
+$medium-grey: #6C6868;
+$soft-grey: #BCB8B1;
+$green-opacity: rgba(0, 175, 145, 0.65);
+$orange-opacity: rgba(245, 134, 52, 0.65);
+$orange-opcaity-high: rgba(245, 134, 52, 0.85);
+$white: #FFFFFF;
+$white-opacity: rgba(255, 255, 255, 0.1);
+$blur-effect: blur(15px);
+$red: rgba(235, 11, 11, 0.714);
+
+//Font sizes for Desktop
+$font-family: 'Montserrat', sans-serif;
+$size-title-desktop: 2.25rem;
+$size-subtitle-desktop: 1rem;
+$size-cardbenefits-desktop: 1.125rem;
+$size-plainsbody-desktop: 1.125rem;
+$size-caption-desktop: 0.625rem;
+$size-button-desktop: 1.125rem;
+$size-navbarlinks-desktop: 1rem;
+$size-inputstitle-desktop: 0.875rem;
+$size-inputsplaceholder-desktop: 0.875rem;
+$size-sideslider-desktop: 1.125rem;
+$size-sideslideruser-desktop: 1.125rem;
+$size-sidesliderlinks-desktop: 1.125rem;
+$size-footerlinks-desktop: 1.125rem;
+$size-footerlinks-medium: 1rem;
+$size-recipedetailtitle-desktop: 0.75rem;
+$size-recipedetailsubtitle-desktop: 0.813rem;
+
+//Font sizes for Mobile
+$size-title-mobile: 1.5rem;
+$size-subtitle-mobile: 1rem;
+$size-cardbenefits-mobile: 0.75rem;
+$size-plainsbody-mobile: 0.75rem;
+$size-caption-mobile: 0.75rem;
+$size-button-mobile: 1.125rem;
+$size-navbarlinks-mobile: 1.125rem;
+$size-inputstitle-mobile: 0.75rem;
+$size-inputsplaceholder-mobile: 0.875rem;
+$size-sideslider-mobile: 1.125rem;
+$size-sideslideruser-mobile: 1.125rem;
+$size-sidesliderlinks-mobile: 1.125rem;
+$size-footerlinks-mobile: 1.125rem;
+$size-footerlinksmedium-mobile: 1rem;
+$size-recipedetailtitle-mobile: 0.75rem;
+$size-recipedetailsubtitle-mobile: 0.813rem;
+
+//Font weights
+$thin: 300;
+$regular: 400;
+$medium: 500;
+$bold: 600;
+$extra-bold: 700;

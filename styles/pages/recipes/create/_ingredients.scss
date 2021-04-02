@@ -1,0 +1,41 @@
+.section-add-ingredients {
+  padding: 1.5rem;
+  color: $white;
+
+  form {
+    margin-left: 40px;
+  }
+
+  .tittleTable {
+    color: $white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .resumeIngredientSteps {
+    display: flex;
+    justify-content: space-between;
+    td {
+      margin-left: 20px;
+    }
+  }
+
+  .plusbutton {
+    background-color: $white;
+    color: $dark-mode;
+    border-radius: 50%;
+    border: none;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .importStyle {
+    flex-direction: column;
+    padding-right: 105px;
+  }
+}
